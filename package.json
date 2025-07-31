@@ -1,14 +1,11 @@
 {
-  "name": "workspace",
+  "name": "discord-anti-raid-bot",
   "version": "1.0.0",
+  "description": "Anti-raid bot for Discord with web dashboard",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "@neondatabase/serverless": "^1.0.1",
     "better-sqlite3": "^12.2.0",
@@ -19,5 +16,7 @@
     "sqlite": "^5.1.1",
     "sqlite3": "^5.1.7",
     "ws": "^8.18.3"
-  }
+  },
+  "author": "Você",
+  "license": "ISC"
 }
